@@ -1,0 +1,40 @@
+{
+  "DevMode": true,
+  "username": "admin",
+  "password": "xxxxx",
+  "serveraddress": "servername(:port)/opds/new",
+  "serverbookurl": "http://server(:port)/book/",
+  "numofdaysfornotification":"7",
+  "TEMPLATE_DIR": "EmailTemplate",
+  "TEMPLATE_FILE": "EmailTemplate.html",
+  "TEMPLATE_BANNER_IMG": "images/Library_Wikimedia.png",
+  "TEMPLATE_NOCOVER_IMG": "images/Unknown.png",
+  "COVER_DIR": "/covers/",
+  "SUMMARY_LENGTH": 500,
+
+  "SMTPSettings": {
+    "user": "",
+    "password": "",
+    "startttls": "ssl",
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "from": "Book Server",
+    "subject": "What's new?"
+  },
+
+  "DLSource":"config",
+
+  "DistributionList": [
+    "targetuser@domain.com",
+    "targetuser@domain.com"
+  ],
+
+  "DistributionExclusionsList": [
+    "no@email"
+  ],
+
+  "Database": {
+    "cps_db_loc": "/opt/cps/app.db"
+  }
+
+}
