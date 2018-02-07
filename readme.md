@@ -33,7 +33,8 @@ Basically this whole image was created to execute the cps-WhatsNew script on a s
 
 <p>The volume mount of '/cps/config:/calibre-web/config' is used if you are planning on using the Calibre-web database as an email source.</p> 
 
-<p>Check out [technosoft2000/calibre-web](https://hub.docker.com/r/technosoft2000/calibre-web/) for a container for the Calibre-web application. You can simply create a docker-compose file that contains that application and this script quite easily.
+<p>Check out https://hub.docker.com/r/technosoft2000/calibre-web/ for a container for the Calibre-web application. You can simply create a docker-compose file that contains that application and this script quite easily.
 
 <h2>Support/More Info</h2>
-You can find more information and support at [http://recycledpapyr.us/cps-whatsnew/](http://recycledpapyr.us/cps-whatsnew/)
+You can find more information and support at http://recycledpapyr.us/cps-whatsnew/
+
