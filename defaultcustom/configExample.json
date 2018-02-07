@@ -5,7 +5,7 @@
   "serveraddress": "servername(:port)/opds/new",
   "serverbookurl": "http://server(:port)/book/",
   "numofdaysfornotification":"7",
-  "TEMPLATE_DIR": "EmailTemplate",
+  "TEMPLATE_DIR": "/custom/EmailTemplate",
   "TEMPLATE_FILE": "EmailTemplate.html",
   "TEMPLATE_BANNER_IMG": "images/Library_Wikimedia.png",
   "TEMPLATE_NOCOVER_IMG": "images/Unknown.png",

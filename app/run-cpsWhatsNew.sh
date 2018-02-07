@@ -1,5 +1,5 @@
 #!/bin/bash
 
-cd /cps-whatsnew
+cd /app
 python cps-Whatsnew.py
 
