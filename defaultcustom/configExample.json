@@ -1,9 +1,9 @@
 {
   "DevMode": true,
-  "username": "admin",
+  "username": "newsletterusername",
   "password": "xxxxx",
   "serveraddress": "servername(:port)/opds/new",
-  "serverbookurl": "http://server(:port)/book/",
+  "serverbookurl": "servername(:port)/book/",
   "numofdaysfornotification":"7",
   "TEMPLATE_DIR": "/custom/EmailTemplate",
   "TEMPLATE_FILE": "EmailTemplate.html",
